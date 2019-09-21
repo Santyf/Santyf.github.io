@@ -20,14 +20,14 @@ header {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 24px;
     align-items: center;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 nav {
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 300px;
     
 
@@ -90,6 +90,12 @@ h2 {
     font-size: 35px;
 }
 
+h3 {
+    background-color: teal;
+    color: white;
+    
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
@@ -98,9 +104,8 @@ p {
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    
+    width: 150px;
+    height: 150px;
     float: left;
     margin-right: 15px;
     
@@ -129,7 +134,51 @@ button {
     margin: 10px 0;
 }
 
+button:active {
+    background-color: red;
+}
+
 input {
     margin: 10px 0;
+
+}
+
+.box-set {
+    height: 800px;
+    background: white;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: teal;
+    
+}
+
+.box-1 {
+    top: 6%;
+    left: 2%;
+}
+
+.box-2 {
+    top: 6%;
+    left: 20%;
+}
+
+.box-3 {
+    bottom: 45%;
+    left: 2%;
+}
+
+.box-4 {
+    bottom: 45%;
+    left: 20%;
+}
+
+.box-5 {
+    top: 58%;
+    left: 2%
 
 }
